@@ -6,9 +6,6 @@ public class User {
     private String pin;
     private double balance;
 
-    // Default constructor
-    public User() {}
-
     // Constructor with all fields
     public User(int uid, String name, String pin, double balance) {
         this.uid = uid;
